@@ -25,11 +25,11 @@ const part2 = "script";
 const part1Done = part1.slice(0, 3) + part1[3].toUpperCase();
 const part2Done = part2.slice(0, 5) + part2[5].toUpperCase();
 
-const camelTail = part1Done + part2Done;
+const result = part1Done + part2Done;
 
 // Print the cameLtaiL-formatted string
 
-console.log(camelTail);
+console.log(result);
 
 /*******************************************
     Iteration 2.1 | Calculate Tip
